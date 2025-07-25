@@ -1,0 +1,100 @@
+.saved-entries-container {
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+  background: #111;
+  min-height: 100vh;
+}
+
+.saved-title {
+  font-size: 3rem;
+  background: #111;
+  color: #fff;
+  background: #111;
+
+.saved-subtitle {
+  font-size: 1.4rem;
+  opacity: 0.9;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.graph-container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-shadow: none;
+  border: 1px solid #222;
+}
+
+.entries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.entry-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  text-align: left;
+  width: 90%;
+.entry-card {
+  background: #181818;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: left;
+  width: 100%;
+  max-width: 260px;
+  box-shadow: none;
+  border: 1px solid #222;
+  transition: background 0.2s;
+  text-align: left;
+  width: 100%;
+  max-width: 260px;
+  box-shadow: none;
+  border: 1px solid #222;
+.entry-text {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+.entry-text {
+  font-size: 1rem;
+.entry-score {
+  font-size: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.entry-date {
+.entry-date {
+  font-size: 0.9rem;
+  opacity: 0.5;
+  margin-bottom: 6px;
+}
+.delete-btn {
+  background: #fff;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: none;
+}
+.delete-btn:hover {
+  background: #222;
+  color: #fff;
+}
+  background: #222;
+  color: #fff;

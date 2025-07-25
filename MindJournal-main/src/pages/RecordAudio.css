@@ -1,0 +1,116 @@
+/* 🎤 Background & Layout */
+.record-audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🎙 Title Styling */
+.record-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-shadow: none;
+  position: relative;
+  top: 0;
+}
+
+/* 🎙 Subtitle */
+.record-subtitle {
+  font-size: 1rem;
+  margin-bottom: 16px;
+  opacity: 0.7;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* 🎤 Recording Buttons */
+.record-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.start-recording, .stop-recording {
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+  color: #111;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: none;
+}
+
+/* 🔴 Start Button */
+.start-recording {
+    background: #222;
+  color: white;
+}
+
+.start-recording:hover {
+  background: #2fc98d;
+  transform: scale(1.05);
+}
+
+/* ⏹ Stop Button */
+.stop-recording {
+    background: #e64444;
+  color: white;
+}
+
+.stop-recording:hover {
+  background: #e64444;
+  transform: scale(1.05);
+}
+
+/* 🎶 Playback Section */
+.audio-playback {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.audio-playback h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+/* ❌ Delete Button */
+.start-recording:hover, .stop-recording:hover {
+  background: #222;
+  color: #fff;
+}
+
+/* 🏠 Back Button */
+.back-button {
+  margin-top: 25px;
+  padding: 12px 28px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background: white;
+  color: #4f46e5;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background: #9b34eb;
+  color: white;
+  transform: scale(1.05);
+}

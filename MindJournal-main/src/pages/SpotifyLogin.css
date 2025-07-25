@@ -1,0 +1,56 @@
+.spotify-dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.album-cover {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.song-details {
+  text-align: left;
+}
+
+.song-details h3 {
+  margin: 5px 0;
+}
+
+.song-details a {
+  text-decoration: none;
+  color: #1db954;
+  font-weight: bold;
+}
+
+.song-details a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,125 @@
+/* 🎤 Background & Layout */
+.record-audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #4f46e5, #9b34eb, #ff4081);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🎙 Title Styling */
+.record-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.3);
+  position: relative;
+  top: -20px;
+}
+
+/* 🎙 Subtitle */
+.record-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* 🎤 Recording Buttons */
+.record-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.start-recording, .stop-recording {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🔴 Start Button */
+.start-recording {
+  background: #34eb9b;
+  color: white;
+}
+
+.start-recording:hover {
+  background: #2fc98d;
+  transform: scale(1.05);
+}
+
+/* ⏹ Stop Button */
+.stop-recording {
+  background: #ff4c4c;
+  color: white;
+}
+
+.stop-recording:hover {
+  background: #e64444;
+  transform: scale(1.05);
+}
+
+/* 🎶 Playback Section */
+.audio-playback {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.audio-playback h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+/* ❌ Delete Button */
+.delete-recording {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.delete-recording:hover {
+  background: darkred;
+}
+
+/* 🏠 Back Button */
+.back-button {
+  margin-top: 25px;
+  padding: 12px 28px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background: white;
+  color: #4f46e5;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background: #9b34eb;
+  color: white;
+  transform: scale(1.05);
+}

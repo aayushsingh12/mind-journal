@@ -1,54 +1,10 @@
-# MindJournal - AI-Powered Mental Health Journaling
+# Getting Started with Create React App
 
-MindJournal is an innovative journaling platform that combines the therapeutic benefits of traditional journaling with modern AI technology to help users track and understand their mental well-being.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Homepage Screenshot](screenshots/homepage.png)
-*Homepage with modern gradient design and intuitive interface*
+## Available Scripts
 
-## 🌟 Key Features
-
-### 1. Intelligent Mood Analysis
-- AI-powered analysis of journal entries
-- Real-time emotion detection and scoring
-- Visual mood indicators through dynamic background colors
-- Detailed breakdown of detected emotions
-
-![Journal Interface](screenshots/journal.png)
-*Journal interface showing mood analysis and emotion detection*
-
-### 2. Personal Journal Dashboard
-- Track your emotional journey over time
-- Interactive mood score graph
-- Beautifully designed entry cards
-- Secure local storage of all entries
-
-![Dashboard View](screenshots/saved.png)
-*Dashboard showing mood tracking graph and saved entries*
-
-### 3. Spotify Integration
-- Music recommendations based on mood
-- Personalized playlists for emotional support
-- Seamless music player integration
-
-![Spotify Feature](screenshots/spotify-integration.png)
-*Spotify integration showing mood-based music recommendations*
-
-### 4. Audio Journaling
-- Voice-to-text capabilities
-- Audio entry support
-- Perfect for times when typing isn't convenient
-
-![Audio Recording](screenshots/audio-feature.png)
-*Audio recording interface for voice journaling*
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js and npm installed
-- Python 3.x for the backend
-- Spotify Developer account (for music features)
-
-### Installation
+In the project directory, you can run:
 
 ### `npm start`
 

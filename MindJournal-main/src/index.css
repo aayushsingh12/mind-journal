@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+  font-weight: bold;
+}

@@ -1,0 +1,47 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  background: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
