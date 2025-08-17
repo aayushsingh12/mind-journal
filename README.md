@@ -30,16 +30,12 @@ MindJournal is an innovative journaling platform that combines the therapeutic b
 - Personalized playlists for emotional support
 - Seamless music player integration
 
-![Spotify Feature](screenshots/spotify-integration.png)
-*Spotify integration showing mood-based music recommendations*
 
 ### 4. Audio Journaling
 - Voice-to-text capabilities
 - Audio entry support
 - Perfect for times when typing isn't convenient
 
-![Audio Recording](screenshots/audio-feature.png)
-*Audio recording interface for voice journaling*
 
 ## 🚀 Getting Started
 
